@@ -67,7 +67,7 @@ int randomValue = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("******************* Assingment Results *****************");
 Console.WriteLine();
-num1 += 5
+num1 += 5;
 Console.WriteLine($"Nun 1 increases by 5 {randomValue}: {num1}");
 num1 -= 3 ;
 Console.WriteLine($"Num 1 reduced by 3 {randomValue}: {num1}");
