@@ -54,10 +54,20 @@ void PrintNameNullableParam(string? name, int? count)
  
 name ??= "Default name";
 
+//if(!count.HasValue)
 
-or
+{
 
-count ??= 1;
+  count ??= 1;
+
+}
+
+
+
+// The  null-coalescing assingment operator ??= assings the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
+
+
+
  
 
  */
